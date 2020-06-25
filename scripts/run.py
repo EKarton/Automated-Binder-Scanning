@@ -4,7 +4,7 @@ from os.path import isfile, join, isdir, dirname
 import os
 
 from find_units import find_units
-from merge import merge_pages
+from merge import merge_pages, get_scanned_pages, get_scan_number
 from make_pdf import make_pdf
 from merge_pdf import merge_pdfs, get_unit_number
 
@@ -20,6 +20,7 @@ if __name__ == "__main__":
             join(unit, "Back pages"),
             join(unit, "Merged pages"),
         )
+
         make_pdf(join(unit, "Merged pages"), join(unit, "booklet.pdf"))
 
         binder_dir_path = dirname(unit)
