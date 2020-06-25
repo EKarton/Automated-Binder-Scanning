@@ -11,7 +11,8 @@ Scan front and back pages from binders quickly!
 	```
 
 2. Make a folder per binder
-	Example: If you have these two binders:
+	
+    Example: If you have these two binders:
 
 	Make these folders:
 	```
@@ -20,7 +21,8 @@ Scan front and back pages from binders quickly!
 	```
 
 3. For each binder, make folders for each unit
-	Example: If you have these units:
+	
+    Example: If you have these units:
 
 	Make these subfolders:
 	```
@@ -42,7 +44,8 @@ Scan front and back pages from binders quickly!
 	```
 
 4. For each unit, make three folders: ```Front pages```, ```Back pages```, and ```Merged pages```
-	Example:
+	
+    Example:
 	```
 	AST 101
     └── Unit 1
@@ -86,7 +89,8 @@ Scan front and back pages from binders quickly!
 	```
 
 5. Open up your Scanner app, and start scanning the first page of the first unit. Make sure that the scanned images are in ascending order of their page numbers
-	Example:
+	
+    Example:
 	* Put your pages into the scanner:
 
 	* Open up your Scanner app and target the output folder to the ```Front pages``` of your first unit:
@@ -94,7 +98,8 @@ Scan front and back pages from binders quickly!
 	* Scan 
 
 6. Now, start scanning the back pages of your first unit in **Reversed order** (means that the scanned images are in descending order of their page numbers)
-	Example:
+	
+    Example:
 	* Carefully take your pages out of the scanner without flipping it over:
 
 	* Put the back side of the last page as the first page to scan in your scanner:
