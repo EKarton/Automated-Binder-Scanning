@@ -134,3 +134,6 @@ include/
 __pycache__/
 share/
 lib/
+
+# Ignroe Mac files
+.DS_Store
