@@ -137,3 +137,7 @@ lib/
 
 # Ignroe Mac files
 .DS_Store
+
+# Ignore scans
+scans/*
+!scans/.gitkeep

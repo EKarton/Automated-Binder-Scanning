@@ -2,6 +2,7 @@ import subprocess
 from os.path import isfile, join, isdir, dirname
 
 import os
+from os import mkdir
 
 from find_units import find_units
 from merge import merge_pages, get_scanned_pages, get_scan_number
@@ -14,7 +15,10 @@ if __name__ == "__main__":
     binder_to_units = {}
 
     # Make pdfs for each unit
-    for unit in find_units("."):
+    for unit in find_units("./scans"):
+        if not isdir(join(unit, "Merged pages")):
+            mkdir(join(unit, "Merged pages"))
+
         merge_pages(
             join(unit, "Front pages"),
             join(unit, "Back pages"),

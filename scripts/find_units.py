@@ -33,7 +33,6 @@ def find_units(cur_dir_path):
     if (
         has_front_pages_dir(cur_dir_path)
         and has_back_pages_dir(cur_dir_path)
-        and has_merged_pages_dir(cur_dir_path)
     ):
         return [cur_dir_path]
 

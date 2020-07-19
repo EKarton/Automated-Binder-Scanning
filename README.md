@@ -116,10 +116,10 @@ Scan front and back pages from binders quickly!
 	find . -name "Scan.jpeg" -print0 | while read -d $'\0' file; do dir=$(dirname "${file}"); echo $dir; mv "${file}"  "${dir}/Scan 0.jpeg"; done
 	```
 
-9. Copy your scanned binder to the root directory of this repo. 
+9. Copy your scanned binder to the ```scans``` directory in repo. 
 
-10. In the repo, run the commands:
+10. In the terminal, run:
 	```
 	source bin/activate
-	python3 run.py
+	python3 scripts/run.py
 	```
