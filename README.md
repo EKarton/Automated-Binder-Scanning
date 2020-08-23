@@ -22,7 +22,7 @@ Scan front and back pages from binders quickly!
 
 3. Break each binder into units:
 
-	Example: something like this:
+	Example:
 	<div width="100%">
 		<p align="center">
 	<img src="docs/break.jpg" width="80%"/>
@@ -31,24 +31,16 @@ Scan front and back pages from binders quickly!
 
 4. For each binder, make folders for each unit
 	
-    Example: If you have these units:
-
-	Make these subfolders:
+    Example:
 	```
 	CSC 384
-    └── Unit 1
-    └── Unit 2
-    └── Unit 3
-    └── Unit 4
-    └── Unit 5
-    └── Unit 6
-    └── Unit 7
-    GGR 272
-    └── Unit 1
-    └── Unit 2
-    └── Unit 3
-    └── Unit 4
-    └── Unit 5
+	└── Unit 1
+	└── Unit 2
+	└── Unit 3
+	└── Unit 4
+	└── Unit 5
+	└── Unit 6
+	└── Unit 7
 	```
 
 4. For each unit, make three folders: ```Front pages``` and ```Back pages```:
@@ -75,22 +67,6 @@ Scan front and back pages from binders quickly!
     	└── Front pages
     	└── Back pages
     └── Unit 7
-    	└── Front pages
-    	└── Back pages
-    GGR 272
-    └── Unit 1
-    	└── Front pages
-    	└── Back pages
-    └── Unit 2
-    	└── Front pages
-    	└── Back pages
-    └── Unit 3
-    	└── Front pages
-    	└── Back pages
-    └── Unit 4
-    	└── Front pages
-    	└── Back pages
-    └── Unit 5
     	└── Front pages
     	└── Back pages
 	```
@@ -161,6 +137,12 @@ Scan front and back pages from binders quickly!
 	</div>
 
 	* Change the output directory in your Scanner app to ```Back pages``` of your first unit:
+
+	<div width="100%">
+		<p align="center">
+	<img src="docs/change-dir-button-pt2.png" width="80%"/>
+		</p>
+	</div>
 
 	<div width="100%">
 		<p align="center">
