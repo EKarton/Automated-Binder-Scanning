@@ -131,7 +131,7 @@ Scan front and back pages from binders quickly!
 6. Now, start scanning the back pages of your first unit in **Reversed order** (means that the scanned images are in descending order of their page numbers)
 	
     Example:
-	* Carefully take your pages out of the document feeder without flipping it over:
+	* Carefully take your pages out of the document feeder without flipping it over
 
 	* Put the back side of the last page as the first page to scan in your scanner:
 
