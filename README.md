@@ -16,7 +16,7 @@ Scan front and back pages from binders quickly!
 
 	Make these folders:
 	```
-	AST 101
+	CSC 384
 	GGR 272
 	```
 
