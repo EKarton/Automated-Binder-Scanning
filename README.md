@@ -20,13 +20,22 @@ Scan front and back pages from binders quickly!
 	GGR 272
 	```
 
-3. For each binder, make folders for each unit
+3. Break each binder into units:
+
+	Example: something like this:
+	<div width="100%">
+		<p align="center">
+	<img src="docs/break.jpg" width="80%"/>
+		</p>
+	</div>
+
+4. For each binder, make folders for each unit
 	
     Example: If you have these units:
 
 	Make these subfolders:
 	```
-	AST 101
+	CSC 384
     └── Unit 1
     └── Unit 2
     └── Unit 3
@@ -34,7 +43,6 @@ Scan front and back pages from binders quickly!
     └── Unit 5
     └── Unit 6
     └── Unit 7
-    └── Unit 8
     GGR 272
     └── Unit 1
     └── Unit 2
@@ -43,11 +51,11 @@ Scan front and back pages from binders quickly!
     └── Unit 5
 	```
 
-4. For each unit, make three folders: ```Front pages```, ```Back pages```, and ```Merged pages```
+4. For each unit, make three folders: ```Front pages``` and ```Back pages```:
 	
     Example:
 	```
-	AST 101
+	CSC 384
     └── Unit 1
     	└── Front pages
     	└── Back pages
@@ -69,7 +77,6 @@ Scan front and back pages from binders quickly!
     └── Unit 7
     	└── Front pages
     	└── Back pages
-    └── Unit 8
     GGR 272
     └── Unit 1
     	└── Front pages
@@ -93,18 +100,60 @@ Scan front and back pages from binders quickly!
     Example:
 	* Put your pages into the scanner:
 
-	* Open up your Scanner app and target the output folder to the ```Front pages``` of your first unit:
+	<div width="100%">
+		<p align="center">
+	<img src="docs/front.jpg" width="80%"/>
+		</p>
+	</div>
+
+	* Open up your Scanner app:
+
+		On a Mac, it would be under `Spotlight > Printers & Scanners > Printers > Scan > Open Scanner`:
+
+		<div width="100%">
+			<p align="center">
+		<img src="docs/find-scanner.png" width="80%"/>
+			</p>
+		</div>
+
+		The scanner app on Mac looks like:
+
+		<div width="100%">
+			<p align="center">
+		<img src="docs/scanner-app.png" width="80%"/>
+			</p>
+		</div>
+	
+	* Change the target folder to the ```Front pages``` of your first unit:
+
+	<div width="100%">
+		<p align="center">
+	<img src="docs/change-dir-front.png" width="80%"/>
+		</p>
+	</div>
 
 	* Scan 
 
 6. Now, start scanning the back pages of your first unit in **Reversed order** (means that the scanned images are in descending order of their page numbers)
 	
     Example:
-	* Carefully take your pages out of the scanner without flipping it over:
+	* Carefully take your pages out of the document feeder without flipping it over:
 
 	* Put the back side of the last page as the first page to scan in your scanner:
 
+	<div width="100%">
+		<p align="center">
+	<img src="docs/back.jpg" width="80%"/>
+		</p>
+	</div>
+
 	* Change the output directory in your Scanner app to ```Back pages``` of your first unit:
+
+	<div width="100%">
+		<p align="center">
+	<img src="docs/change-dir-back.png" width="80%"/>
+		</p>
+	</div>
 
 	* Scan:
 
