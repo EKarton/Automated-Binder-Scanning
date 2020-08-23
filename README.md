@@ -121,7 +121,12 @@ Scan front and back pages from binders quickly!
 		</p>
 	</div>
 
-	* Scan 
+	* Scan:
+	<div width="100%">
+		<p align="center">
+	<img src="docs/scan-button.png" width="80%"/>
+		</p>
+	</div>
 
 6. Now, start scanning the back pages of your first unit in **Reversed order** (means that the scanned images are in descending order of their page numbers)
 	
@@ -151,6 +156,11 @@ Scan front and back pages from binders quickly!
 	</div>
 
 	* Scan:
+	<div width="100%">
+		<p align="center">
+	<img src="docs/scan-button-pt2.png" width="80%"/>
+		</p>
+	</div>
 
 7. Go back to step 5 for the rest of your units
 	* NOTE: Sometimes scanners jam / skip pages. To resolve this, delete the folder with the failed unit and redo scanning the front and back pages
