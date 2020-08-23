@@ -123,8 +123,21 @@ Scan front and back pages from binders quickly!
 		<img src="docs/scanner-app.png" width="80%"/>
 			</p>
 		</div>
+
+	* Change the ```Scan Mode``` to ```Document Feeder```:
+	<div width="100%">
+		<p align="center">
+	<img src="docs/change-scan-mode.png" width="80%"/>
+		</p>
+	</div>
 	
 	* Change the target folder to the ```Front pages``` of your first unit:
+
+	<div width="100%">
+		<p align="center">
+	<img src="docs/change-dir-button.png" width="80%"/>
+		</p>
+	</div>
 
 	<div width="100%">
 		<p align="center">
