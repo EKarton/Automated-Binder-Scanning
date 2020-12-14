@@ -1,12 +1,8 @@
-coloredlogs==14.0
-distlib==0.3.1
-humanfriendly==8.2
+# coloredlogs==14.0
+# distlib==0.3.1
+# humanfriendly==8.2
 img2pdf==0.3.6
-numpy==1.19.0
-Pillow==7.1.2
-pycodestyle==2.5.0
 PyPDF2==1.26.0
-rope==0.16.0
-scipy==1.5.0
-six==1.12.0
-virtualenv==20.0.26
+# rope==0.16.0
+# scipy==1.5.0
+# six==1.12.0

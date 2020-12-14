@@ -1,5 +1,5 @@
 # Automated-Binder-Scanning
-Scan front and back pages from binders quickly!
+Scan front and Back pages from binders quickly!
 
 ## Usage
 1. Clone this repository and install dependencies by running the command:
@@ -128,7 +128,7 @@ Scan front and back pages from binders quickly!
 		</p>
 	</div>
 
-6. Now, start scanning the back pages of your first unit in **Reversed order** (means that the scanned images are in descending order of their page numbers)
+6. Now, start scanning the Back pages of your first unit in **Reversed order** (means that the scanned images are in descending order of their page numbers)
 	
     Example:
 	* Carefully take your pages out of the document feeder without flipping it over
@@ -163,17 +163,17 @@ Scan front and back pages from binders quickly!
 	</div>
 
 7. Go back to step 5 for the rest of your units
-	* NOTE: Sometimes scanners jam / skip pages. To resolve this, delete the folder with the failed unit and redo scanning the front and back pages
+	* NOTE: Sometimes scanners jam / skip pages. To resolve this, delete the folder with the failed unit and redo scanning the front and Back pages
 
 8. On a MacOS, the first page scanned is named ```Scan.jpeg``` while the second page is named ```Scan 1.jpeg```. We need ```Scan.jpeg``` to be ```Scan 0.jpeg```. To resolve this, run the command:
 	```bash
 	find . -name "Scan.jpeg" -print0 | while read -d $'\0' file; do dir=$(dirname "${file}"); echo $dir; mv "${file}"  "${dir}/Scan 0.jpeg"; done
 	```
 
-9. Copy your scanned binder to the ```scans``` directory in repo. 
-
-10. In the terminal, run:
+9. In the terminal, run:
 	```
 	source bin/activate
-	python3 scripts/run.py
+	python3 src/main.py ${yourpath}
 	```
+
+	where ```yourpath``` is the path of your scanned folder

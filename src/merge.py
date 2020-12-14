@@ -98,17 +98,17 @@ if __name__ == "__main__":
     parser.add_argument(
         "front_pages_directory",
         type=str,
-        help="The directory with the front pages of scanned images",
+        help="The directory with the Front pages of scanned images",
     )
     parser.add_argument(
         "back_pages_directory",
         type=str,
-        help="The directory with the back pages of scanned images",
+        help="The directory with the Back pages of scanned images",
     )
     parser.add_argument(
         "merged_pages_directory",
         type=str,
-        help="The directory with the merged pages of scanned images",
+        help="The directory with the Merged pages of scanned images",
     )
     opts = parser.parse_args(sys.argv[1:])
 
