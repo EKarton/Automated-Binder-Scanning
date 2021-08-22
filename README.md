@@ -2,7 +2,7 @@
 
 ### Description
 
-Scan your class binders double-sided quickly without a double-sided scanner! It aims to scan your class binder without scanning each page manually and without re-ordering pages. 
+Scan your class binders double-sided quickly without a double-sided scanner! It scan your class binder without scanning each page manually and without re-ordering pages. 
 
 It generates a PDF of your class binder.
 
