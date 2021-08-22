@@ -1,174 +1,101 @@
 # Automated-Binder-Scanning
-Scan front and Back pages from binders quickly!
+
+### Description
+
+Scan your class binders double-sided quickly without a double-sided scanner!
+
+It generates a PDF of your class binder.
+
+### How it works:
+It utilizes your scanner's document feeder to scan pages in bulk. After scanning your binder's front and back pages, it merges your scanned front and back pages before generating the PDF.
 
 ## Usage
 1. Clone this repository and install dependencies by running the command:
+
 	```bash
 	git clone git@github.com:EKarton/Automated-Binder-Scanning.git
 	cd Automated-Binder-Scanning
+
 	virtualenv -p python3 .
 	pip3 install -r requirements.txt
+	source bin/activate
 	```
 
-2. Make a folder per binder
+2. Partition your class binder into units:
 
-3. Break each binder into units:
-
-	Example:
-	<div width="100%">
-		<p align="center">
-	<img src="docs/break.jpg" width="80%"/>
-		</p>
-	</div>
-
-4. For each binder, make folders for each unit
-	
-    Example:
-	```
-	CSC 384
-	└── Unit 1
-	└── Unit 2
-	└── Unit 3
-	└── Unit 4
-	└── Unit 5
-	└── Unit 6
-	└── Unit 7
-	```
-
-4. For each unit, make three folders: ```Front pages``` and ```Back pages```:
-	
-    Example:
-	```
-	CSC 384
-    └── Unit 1
-    	└── Front pages
-    	└── Back pages
-    └── Unit 2
-    	└── Front pages
-    	└── Back pages
-    └── Unit 3
-    	└── Front pages
-    	└── Back pages
-    └── Unit 4
-    	└── Front pages
-    	└── Back pages
-    └── Unit 5
-    	└── Front pages
-    	└── Back pages
-    └── Unit 6
-    	└── Front pages
-    	└── Back pages
-    └── Unit 7
-    	└── Front pages
-    	└── Back pages
-	```
-
-5. Open up your Scanner app, and start scanning the first page of the first unit. Make sure that the scanned images are in ascending order of their page numbers
-	
-    Example:
-	* Put your pages into the scanner:
-
-	<div width="100%">
-		<p align="center">
-	<img src="docs/front.jpg" width="80%"/>
-		</p>
-	</div>
-
-	* Open up your Scanner app:
-
-		On a Mac, it would be under `Spotlight > Printers & Scanners > Printers > Scan > Open Scanner`:
-
+	* Example:
 		<div width="100%">
 			<p align="center">
-		<img src="docs/find-scanner.png" width="80%"/>
+		<img src="docs/break.jpg" width="80%"/>
 			</p>
 		</div>
 
-		The scanner app on Mac looks like:
+	* **Note**: the number of pages in each unit must be less than the max. number of pages your scanner can take in via its document feeder
 
-		<div width="100%">
-			<p align="center">
-		<img src="docs/scanner-app.png" width="80%"/>
-			</p>
-		</div>
+3. For each unit, create a folder with two sub-folders: ```Front pages``` and ```Back pages```
 
-	* Change the ```Scan Mode``` to ```Document Feeder```:
-	<div width="100%">
-		<p align="center">
-	<img src="docs/change-scan-mode.png" width="80%"/>
-		</p>
-	</div>
-	
-	* Change the target folder to the ```Front pages``` of your first unit:
 
-	<div width="100%">
-		<p align="center">
-	<img src="docs/change-dir-button.png" width="80%"/>
-		</p>
-	</div>
+	* Example: from my class binder above, my folder structure would look like:
 
-	<div width="100%">
-		<p align="center">
-	<img src="docs/change-dir-front.png" width="80%"/>
-		</p>
-	</div>
+		```
+		CSC 384
+		└── Unit 1
+			└── Front pages
+			└── Back pages
+		└── Unit 2
+			└── Front pages
+			└── Back pages
+		└── Unit 3
+			└── Front pages
+			└── Back pages
+		└── Unit 4
+			└── Front pages
+			└── Back pages
+		└── Unit 5
+			└── Front pages
+			└── Back pages
+		└── Unit 6
+			└── Front pages
+			└── Back pages
+		└── Unit 7
+			└── Front pages
+			└── Back pages
+		```
 
-	* Scan:
-	<div width="100%">
-		<p align="center">
-	<img src="docs/scan-button.png" width="80%"/>
-		</p>
-	</div>
+4. Open up your Scanner app
 
-6. Now, start scanning the Back pages of your first unit in **Reversed order** (means that the scanned images are in descending order of their page numbers)
-	
-    Example:
-	* Carefully take your pages out of the document feeder without flipping it over
+	* Refer to [this guide](docs/open-scanner-app.md) for a detailed explaination on how to open your Scanner app.
 
-	* Put the back side of the last page as the first page to scan in your scanner:
+5. Start scanning the front pages of the first unit using the document feeder option. 
 
-	<div width="100%">
-		<p align="center">
-	<img src="docs/back.jpg" width="80%"/>
-		</p>
-	</div>
+	* This means in the ```CSC 384/Unit 1/Front pages``` folder, the first page scanned is the front page of your unit's first page.
 
-	* Change the output directory in your Scanner app to ```Back pages``` of your first unit:
+	* Refer to [this guide](docs/scan-front-pages.md) for a detailed explaination on how to scan the front pages of your unit.
 
-	<div width="100%">
-		<p align="center">
-	<img src="docs/change-dir-button-pt2.png" width="80%"/>
-		</p>
-	</div>
+6. Now, start scanning the Back pages of your first unit in **Reversed order** 
 
-	<div width="100%">
-		<p align="center">
-	<img src="docs/change-dir-back.png" width="80%"/>
-		</p>
-	</div>
+	* This means in the ```CSC 384/Unit 1/Back pages``` folder, the first page scanned is the back page of your unit's last page
 
-	* Scan:
-	<div width="100%">
-		<p align="center">
-	<img src="docs/scan-button-pt2.png" width="80%"/>
-		</p>
-	</div>
+	* Refer to [this guide](docs/scan-back-pages.md) for a detailed explaination on how to scan the back pages of your unit
 
 7. Go back to step 5 for the rest of your units
-	* NOTE: Sometimes scanners jam / skip pages. To resolve this, delete the folder with the failed unit and redo scanning the front and Back pages
 
-8. On a MacOS, the first page scanned is named ```Scan.jpeg``` while the second page is named ```Scan 1.jpeg```. We need ```Scan.jpeg``` to be ```Scan 0.jpeg```. To resolve this, run the command:
+	* **NOTE**: Sometimes scanners jam / skip pages. To resolve this, delete the folder with the failed unit and redo scanning the front and Back pages
+	
+
+8.  In the terminal, run:
+	
 	```bash
-	find . -name "Scan.jpeg" -print0 | while read -d $'\0' file; do dir=$(dirname "${file}"); echo $dir; mv "${file}"  "${dir}/Scan 0.jpeg"; done
-	```
-
-9. In the terminal, run:
-	```
-	source bin/activate
 	python3 src/main.py ${yourpath}
 	```
 
-	where ```yourpath``` is the path of your scanned folder
+	where ```yourpath``` is the path of your binder folder
+
+	Example:
+
+	```bash
+	python3 src/main.py "~/Documents/CSC 384"
+	```
 
 ### Next Steps:
 

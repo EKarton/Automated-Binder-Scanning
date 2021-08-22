@@ -5,7 +5,12 @@ from find_units import find_units
 
 
 def get_unit_number(unit_dir_path):
-    return int(basename(unit_dir_path).split(" ")[1])
+    split_name = basename(unit_dir_path).split(" ")
+
+    if len(split_name) is 1:
+        return 0
+
+    return int(split_name[1])
 
 
 def merge_pdfs(pdf_filepaths, output_pdf):
