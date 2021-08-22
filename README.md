@@ -177,3 +177,18 @@ Scan front and Back pages from binders quickly!
 	```
 
 	where ```yourpath``` is the path of your scanned folder
+
+### Next Steps:
+
+- [ ] Create a GUI that reduces the amount of manual steps
+- [ ] Add test cases
+
+
+### Usage
+Please note that this project is used for educational purposes and is not intended to be used commercially. We are not liable for any damages/changes done by this project.
+
+### Credits
+Emilio Kartono, who made the entire project.
+
+### License
+This project is protected under the GNU licence. Please refer to the LICENSE.txt for more information.
