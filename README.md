@@ -89,7 +89,7 @@ It utilizes your scanner's document feeder to scan pages in bulk. After scanning
 	python3 src/main.py ${yourpath}
 	```
 
-	where ```yourpath``` is the path of your binder folder
+	where ```yourpath``` is the path of your binder folder.
 
 	Example:
 
