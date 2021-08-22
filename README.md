@@ -11,14 +11,6 @@ Scan front and Back pages from binders quickly!
 	```
 
 2. Make a folder per binder
-	
-    Example: If you have these two binders:
-
-	Make these folders:
-	```
-	CSC 384
-	GGR 272
-	```
 
 3. Break each binder into units:
 
